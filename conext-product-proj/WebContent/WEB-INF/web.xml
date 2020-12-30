@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>conext-product-proj</display-name>
+  <welcome-file-list>
+    <welcome-file>product.jsp</welcome-file>
+  
+  </welcome-file-list>
+  
+  <context-param>
+  <param-name>offerMsg</param-name>
+  <param-value>New Year Sale</param-value>
+  </context-param>
+  
+   <context-param>
+  <param-name>offerPrice</param-name>
+  <param-value>50% flat</param-value>
+  </context-param>
+   
+</web-app>
